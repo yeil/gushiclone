@@ -4,13 +4,14 @@
 
 .navbar {
   background-color: #FDC068;
-  height: 40px;
+  height: 50px;
+  
 }
 
 .updated {
   float: right;
   margin-right: 10px;
-  padding-top: 13px;
+  padding-top: 14px;
 }
 
 .button-menu {
@@ -20,7 +21,8 @@
   margin-top: 10px;
   border: 0px;
   background-color: white;
-  color: black
+  color: black;
+  font-size: 17px;
 }
 .button-menu:hover {
   outline:none;
