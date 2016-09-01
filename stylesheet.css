@@ -1,1 +1,55 @@
-"Hi" 
+* {
+     box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #FDC068;
+  height: 40px;
+}
+
+.updated {
+  float: right;
+  margin-right: 10px;
+  padding-top: 13px;
+}
+
+.button-menu {
+  margin-left: 100px;
+  height: 50px;
+  width: 200px;
+  margin-top: 10px;
+  border: 0px;
+  background-color: white;
+  color: black
+}
+.button-menu:hover {
+  outline:none;
+  cursor:default;
+}
+.button-menu:active {
+  outline:none;
+}
+.button-menu:focus {
+  outline:none;
+}
+.button-faq {
+  border: 0px;
+  height: 35px;
+  width: 75px;
+  position: relative;
+  bottom: 1px;
+  right: 4px;
+  padding-top: 7px;
+  background-color:#FDEDCE;
+  color: black;
+}
+.button-faq:hover {
+  background-color: darkorange;
+  color: white;
+}
+.button-faq:active {
+  outline:none;
+}
+.button-faq:focus {
+  outline:none;
+}
