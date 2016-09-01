@@ -1,3 +1,4 @@
+
 * {
      box-sizing: border-box;
 }
@@ -55,3 +56,81 @@
 .button-faq:focus {
   outline:none;
 }
+
+
+.container {
+  background-color: black;
+  min-width: 100px;
+  width: 20%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.row {
+  height: 100%;
+  width: 20%;
+  margin: 0;
+  padding: 0;
+  background-color:black;
+}
+
+.sidebar {
+  margin: 2em 0 3em 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  display: block;
+  height: auto;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.inside {
+  background-color: gray;
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  color: white;
+}
+
+.times-heading {
+    font-family: Cursive;
+    background-color: red;
+    font-size: 1.5em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.times-hours {
+  font-family: Verdana;
+  font-size: 1em;
+  margin-bottom: 25px;
+}
+
+.catering-box {
+  background-color: purple;
+}
+
+.catering {
+  font-family: Cursive;
+}
+
+.address {
+  background-color: yellow;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.address p {
+  margin: 0;
+}
+
