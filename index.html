@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+        <script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
         <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
         
 </head>
@@ -27,15 +28,314 @@
         </div>
     </div>
     
-    <div class="menu-section">
+    <div class="yellow-section">
         <ul class="nav nav-tabs" id="navtabs">
           <div class="updated">Menu updated on August 1st, 2016</div>
           <li class="active"><a href="#"><i class="fa fa-cutlery fa-lg" aria-hidden="true"></i> Menu</a></li>
           <li class="faq"><a href="#"><i class="fa fa-question-circle fa-lg" aria-hidden="true"></i> FAQ</a></li>
         </ul>
-      
-      
+        
+        <ul class="menu">
+            <li class="menucard">
+                <div class="menu-top title">Plates</div>
+                <div class="menu-top subtitle">rice, salad, kimchi, and medium drink</div>
+                <div class="menu-img"></div>
+                    <table class="menu-content">
+                      <tr>
+                        <td class="menu-item">1. Beef Steak Teriyaki Plate</td>
+                        <td class="menu-price">$12.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">2. Chicken Teriyaki Plate</td>
+                        <td class="menu-price">$10.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">3. Gushi Plate</td>
+                        <td class="menu-price">$11.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">4. Combo Plate<a class="popup" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Choose 2: Beef Steak Teriyaki, Chicken Teriyaki, or Gushi"><i class="fa fa-info-circle" aria-hidden="true"></i></a></td>
+                        <td class="menu-price">$12.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">5. Kalbi Plate(Korean BBQ Ribs)</td>
+                        <td class="menu-price">$16.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">6. Triple Plate<a class="popup" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Includes Beef Steak Teriyaki, Chicken Teriyaki, and Kalbi (KBBQ Ribs)"><i class="fa fa-info-circle" aria-hidden="true"></i></a></td>
+                        <td class="menu-price">$16.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">7. Kimchi Pork Belly Plate<br><em>includes sprouts instead of kimchi</em></td>
+                        <td class="menu-price">$12.00</td>
+                      </tr>
+                    </table>
+            </li>
+          
+          <li class="menucard">
+                <div class="menu-top title">Plates</div>
+                <div class="menu-top subtitle">rice, salad, kimchi, and medium drink</div>
+                <div class="menu-img"></div>
+                    <table class="menu-content">
+                      <tr>
+                        <td class="menu-item">1. Beef Steak Teriyaki Plate</td>
+                        <td class="menu-price">$12.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">2. Chicken Teriyaki Plate</td>
+                        <td class="menu-price">$10.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">3. Gushi Plate</td>
+                        <td class="menu-price">$11.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">4. Combo Plate<a class="popup" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Choose 2: Beef Steak Teriyaki, Chicken Teriyaki, or Gushi"><i class="fa fa-info-circle" aria-hidden="true"></i></a></td>
+                        <td class="menu-price">$12.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">5. Kalbi Plate(Korean BBQ Ribs)</td>
+                        <td class="menu-price">$16.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">6. Triple Plate<a class="popup" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Includes Beef Steak Teriyaki, Chicken Teriyaki, and Kalbi (KBBQ Ribs)"><i class="fa fa-info-circle" aria-hidden="true"></i></a></td>
+                        <td class="menu-price">$16.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">7. Kimchi Pork Belly Plate<br><em>includes sprouts instead of kimchi</em></td>
+                        <td class="menu-price">$12.00</td>
+                      </tr>
+                    </table>
+            </li>
+          
+          <li class="menucard">
+                <div class="menu-top title">Plates</div>
+                <div class="menu-top subtitle">rice, salad, kimchi, and medium drink</div>
+                <div class="menu-img"></div>
+                    <table class="menu-content">
+                      <tr>
+                        <td class="menu-item">1. Beef Steak Teriyaki Plate</td>
+                        <td class="menu-price">$12.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">2. Chicken Teriyaki Plate</td>
+                        <td class="menu-price">$10.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">3. Gushi Plate</td>
+                        <td class="menu-price">$11.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">4. Combo Plate<a class="popup" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Choose 2: Beef Steak Teriyaki, Chicken Teriyaki, or Gushi"><i class="fa fa-info-circle" aria-hidden="true"></i></a></td>
+                        <td class="menu-price">$12.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">5. Kalbi Plate(Korean BBQ Ribs)</td>
+                        <td class="menu-price">$16.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">6. Triple Plate<a class="popup" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Includes Beef Steak Teriyaki, Chicken Teriyaki, and Kalbi (KBBQ Ribs)"><i class="fa fa-info-circle" aria-hidden="true"></i></a></td>
+                        <td class="menu-price">$16.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">7. Kimchi Pork Belly Plate<br><em>includes sprouts instead of kimchi</em></td>
+                        <td class="menu-price">$12.00</td>
+                      </tr>
+                    </table>
+            </li>
+          
+          <li class="menucard">
+                <div class="menu-top title">Plates</div>
+                <div class="menu-top subtitle">rice, salad, kimchi, and medium drink</div>
+                <div class="menu-img"></div>
+                    <table class="menu-content">
+                      <tr>
+                        <td class="menu-item">1. Beef Steak Teriyaki Plate</td>
+                        <td class="menu-price">$12.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">2. Chicken Teriyaki Plate</td>
+                        <td class="menu-price">$10.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">3. Gushi Plate</td>
+                        <td class="menu-price">$11.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">4. Combo Plate<a class="popup" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Choose 2: Beef Steak Teriyaki, Chicken Teriyaki, or Gushi"><i class="fa fa-info-circle" aria-hidden="true"></i></a></td>
+                        <td class="menu-price">$12.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">5. Kalbi Plate(Korean BBQ Ribs)</td>
+                        <td class="menu-price">$16.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">6. Triple Plate<a class="popup" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Includes Beef Steak Teriyaki, Chicken Teriyaki, and Kalbi (KBBQ Ribs)"><i class="fa fa-info-circle" aria-hidden="true"></i></a></td>
+                        <td class="menu-price">$16.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">7. Kimchi Pork Belly Plate<br><em>includes sprouts instead of kimchi</em></td>
+                        <td class="menu-price">$12.00</td>
+                      </tr>
+                    </table>
+            </li>
+          
+          <li class="menucard">
+                <div class="menu-top title">Plates</div>
+                <div class="menu-top subtitle">rice, salad, kimchi, and medium drink</div>
+                <div class="menu-img"></div>
+                    <table class="menu-content">
+                      <tr>
+                        <td class="menu-item">1. Beef Steak Teriyaki Plate</td>
+                        <td class="menu-price">$12.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">2. Chicken Teriyaki Plate</td>
+                        <td class="menu-price">$10.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">3. Gushi Plate</td>
+                        <td class="menu-price">$11.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">4. Combo Plate<a class="popup" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Choose 2: Beef Steak Teriyaki, Chicken Teriyaki, or Gushi"><i class="fa fa-info-circle" aria-hidden="true"></i></a></td>
+                        <td class="menu-price">$12.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">5. Kalbi Plate(Korean BBQ Ribs)</td>
+                        <td class="menu-price">$16.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">6. Triple Plate<a class="popup" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Includes Beef Steak Teriyaki, Chicken Teriyaki, and Kalbi (KBBQ Ribs)"><i class="fa fa-info-circle" aria-hidden="true"></i></a></td>
+                        <td class="menu-price">$16.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">7. Kimchi Pork Belly Plate<br><em>includes sprouts instead of kimchi</em></td>
+                        <td class="menu-price">$12.00</td>
+                      </tr>
+                    </table>
+            </li>
+          
+          <li class="menucard">
+                <div class="menu-top title">Plates</div>
+                <div class="menu-top subtitle">rice, salad, kimchi, and medium drink</div>
+                <div class="menu-img"></div>
+                    <table class="menu-content">
+                      <tr>
+                        <td class="menu-item">1. Beef Steak Teriyaki Plate</td>
+                        <td class="menu-price">$12.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">2. Chicken Teriyaki Plate</td>
+                        <td class="menu-price">$10.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">3. Gushi Plate</td>
+                        <td class="menu-price">$11.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">4. Combo Plate<a class="popup" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Choose 2: Beef Steak Teriyaki, Chicken Teriyaki, or Gushi"><i class="fa fa-info-circle" aria-hidden="true"></i></a></td>
+                        <td class="menu-price">$12.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">5. Kalbi Plate(Korean BBQ Ribs)</td>
+                        <td class="menu-price">$16.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">6. Triple Plate<a class="popup" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Includes Beef Steak Teriyaki, Chicken Teriyaki, and Kalbi (KBBQ Ribs)"><i class="fa fa-info-circle" aria-hidden="true"></i></a></td>
+                        <td class="menu-price">$16.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">7. Kimchi Pork Belly Plate<br><em>includes sprouts instead of kimchi</em></td>
+                        <td class="menu-price">$12.00</td>
+                      </tr>
+                    </table>
+            </li>
+          
+          <li class="menucard">
+                <div class="menu-top title">Plates</div>
+                <div class="menu-top subtitle">rice, salad, kimchi, and medium drink</div>
+                <div class="menu-img"></div>
+                    <table class="menu-content">
+                      <tr>
+                        <td class="menu-item">1. Beef Steak Teriyaki Plate</td>
+                        <td class="menu-price">$12.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">2. Chicken Teriyaki Plate</td>
+                        <td class="menu-price">$10.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">3. Gushi Plate</td>
+                        <td class="menu-price">$11.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">4. Combo Plate<a class="popup" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Choose 2: Beef Steak Teriyaki, Chicken Teriyaki, or Gushi"><i class="fa fa-info-circle" aria-hidden="true"></i></a></td>
+                        <td class="menu-price">$12.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">5. Kalbi Plate(Korean BBQ Ribs)</td>
+                        <td class="menu-price">$16.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">6. Triple Plate<a class="popup" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Includes Beef Steak Teriyaki, Chicken Teriyaki, and Kalbi(KBBQ Ribs)"><i class="fa fa-info-circle" aria-hidden="true"></i></a></td>
+                        <td class="menu-price">$16.00</td>
+                      </tr>
+                      <tr>
+                        <td class="menu-item">7. Kimchi Pork Belly Plate<br><em>includes sprouts instead of kimchi</em></td>
+                        <td class="menu-price">$12.00</td>
+                      </tr>
+                    </table>
+            </li>
+        </ul>
+     
     </div>
+    
+    <footer>
+      <div class="footer-left">
+        <div class="footer-text"><i class="fa fa-home" aria-hidden="true"></i>Find Gushi at</div>
+        <div class="footer-info">978 Gayley<br>Avenue,<br>Los Angeles, CA<br>90024</div>
+      </div>
+      <div class="footer-right">
+        <div class="footer-text"><i class="fa fa-envelope" aria-hidden="true"></i>Contact Gushi at</div>
+        <div class="footer-info"><i class="fa fa-phone" aria-hidden="true"></i>(310) 208-4038</div>
+      </div>
+      <div class="copyright">© 2016 gushimenu.com All Rights Reserved.</div>     
+    </footer>
+      
+      <a href=”#” class=”back-to-top” style=”display: inline;”><i class=”fa fa-arrow-circle-up”></i></a>
+      
   </div>
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover(); 
+});
+</script>
+
+<script>
+jQuery(document).ready(function() {
+var offset = 250;
+var duration = 300;
+jQuery(window).scroll(function() {
+if (jQuery(this).scrollTop() > offset) {
+jQuery(‘.back-to-top’).fadeIn(duration);
+} else {
+jQuery(‘.back-to-top’).fadeOut(duration);
+}
+});
+&nbsp;
+jQuery(‘.back-to-top’).click(function(event) {
+event.preventDefault();
+jQuery(‘html, body’).animate({scrollTop: 0}, duration);
+return false;
+})
+});
+</script>
+  
+<script src=”//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js”></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 </body>
 </html>

@@ -70,9 +70,8 @@ body {
   margin-bottom: 3px;
 }
 
-.menu-section {
+.yellow-section {
   width: 100%;
-  height: 500px;
   background-color: white;
 }
 
@@ -124,8 +123,150 @@ body {
   line-height: 2.5em;
 }
 
+.menu {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  list-style: none;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 25px 0px 21px;
+  
+}
 
+.menucard {
+  width: 280px;
+  background-color: #F4F4F4;
+  margin: 20px 15px;
+  border-radius: 15px;
+  padding-bottom: 15px;
+}
 
+.menu-top {
+  width: 100%;
+  height: 50px;
+  color: white;
+  background-color: #3A3A3A;
+  display: inline-block;
+  padding: 10px;
+  border-bottom: 4px solid #E7653C;
+  font-size: 1.7em;
+  line-height: 30px;
+}
+
+.title {
+  width: 43%;
+  float: left;
+}
+
+.subtitle {
+  width: 57%;
+  text-align: right;
+  font-size: 0.9em;
+  line-height: 1.2em;
+}
+
+.menu-img {
+  background-image: url("https://s3-media1.fl.yelpcdn.com/bphoto/GXfWgQ0ywvNud5-uJQnVtg/348s.jpg");
+  height: 280px;
+  width: 280px;
+  background-size: contain;
+}
+
+.menu-content {
+  width: 100%;
+  font-size: 1.1em;
+}
+
+.menu-item {
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+.menu-price {
+  padding-top: 15px;
+  padding-right: 10px;
+}
+
+.popover-content {
+  max-width: 230px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.popup {
+  margin-left: 8px;
+  font-size: 1.3em;
+}
+
+footer {
+  width: 100%;
+  color: white;
+}
+
+.footer-left {
+  width: 100%;
+  background-color: #212121;
+}
+
+.footer-text {
+  width: 100%;
+  background-color: #3B476D;
+  height: 50px;
+  font-size: 17px;
+  padding-top: 14px;
+  padding-left: 20px;
+}
+
+.footer-text i {
+  padding-right: 5px;
+}
+
+.footer-info {
+  width: 210px;
+  margin: 0 auto;
+  padding: 15px;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.footer-right {
+  width: 100%;
+  background-color: #212121;
+}
+
+.footer-right .footer-text {
+  background-color: #7A5A33;
+}
+
+.footer-info i {
+  padding-right: 5px;
+}
+
+.copyright {
+  background-color: black;
+  width: 100%;
+  padding: 10px;
+}
+
+.back-to-top {
+background: none;
+margin: 0;
+position: fixed;
+bottom: 0; 
+right: 0; 
+width: 70px; 
+height: 70px; 
+z-index: 100; 
+display: none; 
+text-decoration: none; 
+color: #ffffff; 
+background-color: #ff9000; 
+}
+
+.back-to-top i {
+  font-size: 60px;
+}
 
 @media (min-width: 600px) {
   .container {
